@@ -14,6 +14,10 @@
         color: var(--color-text);
         font-size: 1.25rem;
     }
+    .nav__header img {
+        height: 18px;
+        width:18px;
+    }
     
     .ul__facilities {
         display: flex;

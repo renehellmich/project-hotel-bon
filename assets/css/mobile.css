@@ -7,7 +7,10 @@
     .nav__header a {
         color: var(--color-text);
         font-size: 1rem;
-        
+    }
+    .nav__header img {
+        height: 14px;
+        width: 14px;
     }
     
     .nav__header {
