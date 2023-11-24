@@ -3,6 +3,12 @@
         font-family: 'Regular';
         font-size: 3.75rem;
     }
+
+    .nav__header a {
+        color: var(--color-text);
+        font-size: 1rem;
+        
+    }
     
     .nav__header {
         display: flex;

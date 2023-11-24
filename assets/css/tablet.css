@@ -9,6 +9,11 @@
         font-size: 2rem;
         color: var(--color-text);
     }
+
+    .nav__header a {
+        color: var(--color-text);
+        font-size: 1.25rem;
+    }
     
     .ul__facilities {
         display: flex;
