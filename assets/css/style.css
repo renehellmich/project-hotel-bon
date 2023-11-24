@@ -48,7 +48,12 @@ p {
     font-size: 1.5rem;
     color:var(--color-text);
 }
-.ul__footer {
+
+a {
+    text-decoration: none;
+    color: white;
+}
+footer .div__links a {
     font-family: 'Regular';
     font-size: 1.5rem;
     color:white;
@@ -65,7 +70,7 @@ button {
     background-color: var(--color-button);
 }
 footer {
-    background-color: black;
+    background-color: #111111;
 }
 
 /* * start Header */
@@ -90,7 +95,6 @@ footer {
 }
 
 .nav__header a {
-    text-decoration: none;
     color: var(--color-text);
 }
 
@@ -101,9 +105,9 @@ footer {
     width: 100vw;
     height: auto;
     min-height: 790px;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     position: relative;
 }
 
@@ -139,10 +143,143 @@ footer {
     border-radius: 10px;
 }
 
-.div__welcome button a {
-    text-decoration: none;
+/* * Section Facilities */
+
+.sc__facilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sc__facilities h2 {
+    padding: 32px 0;
+}
+.ul__facilities {
+    display: flex;
+    gap: 64px;
+    list-style: none;
+    padding-bottom: 128px;
+}
+
+.sc__rooms-rates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 10vw; */
+}
+
+.sc__rooms-rates h2 {
+    margin-bottom: 32px;
+}
+
+.article__rooms-rates {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "std_twin std_room"
+    "std_view_room deluxe_room"; */
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 32px;
+    padding-bottom: 128px;
+}
+
+.div__room {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 2 * 10vw);
+    max-width: 630px;
+    aspect-ratio: 1.26;
+    position: relative;
+}
+
+.div__room button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
+
+.room__twin {
+    background: url('../img/standard_twin_room.png') center/cover no-repeat;
+    width: 100%;
+}
+.room__std {
+    background: url('../img/standard_room.png') center/cover no-repeat;
+    width: 100%;
+}.room__std_view {
+    background: url('../img/standard_view_room.png') center/cover no-repeat;
+    width: 100%;
+}
+.room__deluxe {
+    background: url('../img/deluxe_room.png') center/cover no-repeat;
+    width: 100%;
+}
+
+.pos__div_rooms {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.div__book {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 64px;
+}
+
+.div__book button {
+    border: none;
+    border-radius: 12px;
+    padding: 16px 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 112px;
+    min-height: 476px;
+    padding: 48px 48px 48px 48px;
+    flex-wrap: wrap;
+}
+
+/* * footer */
+
+.div__infos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.div__infos p {
     color: white;
 }
 
-/* * Section Facilities */
+.div__links {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.subscribe .input_mail {
+    padding: 16px 0 16px 16px;
+    border: none;
+    border-radius: 8px;
+}
+.subscribe .submit {
+    padding: 16px 0;
+    border: none;
+    border-radius: 8px;
+}

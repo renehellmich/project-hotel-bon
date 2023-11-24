@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bon Hotel</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header class="header">
         <img src="./assets/img/logo_header.png" alt="">
@@ -51,35 +53,45 @@
                     <p>Taxi</p>
                 </li>
             </ul>
-            <article>
-                <h2>Rooms & Rates</h2>
-                <div>
-                    <h3>Standard Twin Room</h3>
-                    <button>
-                        <a href="#">Check Rates</a>
-                    </button>
+        </section>
+        <section class="sc__rooms-rates">
+            <h2>Rooms & Rates</h2>
+            <article class="article__rooms-rates">
+                <div class="room__twin div__room">
+                    <div class="pos__div_rooms">
+                        <h3>Standard Twin Room</h3>
+                        <button>
+                            <a href="#">Check Rates</a>
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    <h3>Standard Room</h3>
-                    <button>
-                        <a href="#">Check Rates</a>
-                    </button>
+                <div class="room__std div__room">
+                    <div class="pos__div_rooms">
+                        <h3>Standard Room</h3>
+                        <button>
+                            <a href="#">Check Rates</a>
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    <h3>Standard View Room</h3>
-                    <button>
-                        <a href="#">Check Rates</a>
-                    </button>
+                <div class="room__std_view div__room">
+                    <div class="pos__div_rooms">
+                        <h3>Standard View Room</h3>
+                        <button>
+                            <a href="#">Check Rates</a>
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    <h3>Deluxe Room</h3>
-                    <button>
-                        <a href="#">Check Rates</a>
-                    </button>
+                <div class="room__deluxe div__room">
+                    <div class="pos__div_rooms">
+                        <h3>Deluxe Room</h3>
+                        <button>
+                            <a href="#">Check Rates</a>
+                        </button>
+                    </div>
                 </div>
             </article>
-            <div>
-                <h3>Get a room already</h3>
+            <div class="div__book">
+                <h3>Get a room already!</h3>
                 <button>
                     <a href="#">Book Now</a>
                 </button>
@@ -87,7 +99,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div>
+        <div class="div__infos">
             <img src="./assets/img/logo_footer.png" alt="">
             <p>
                 Bon Hotels Head Offices <br>
@@ -95,24 +107,23 @@
                 <a href="#">info@bonhotels.com</a>
             </p>
         </div>
-        <div>
-            <ul class="ul__footer">
-                <li>Our Hotels</li>
-                <li>Our Coferencing</li>
-                <li>Our Company</li>
-                <li>Hotel Design</li>
-                <li>Careers</li>
-            </ul>
+        <div class="div__links">
+            <a href="#">Our Hotels</a>
+            <a href="#">Our Conferencing</a>
+            <a href="#">Our Company</a>
+            <a href="#">Hotel Design</a>
+            <a href="#">Careers</a>
         </div>
-        <div>
+        <div class="div__subscribe">
             <form action="#">
                 <section class="subscribe">
                     <label for="subscribe" class="label__subscribe">Subcribe for Offers</label>
-                    <input type="text" placeholder="Email Address">
-                    <button type="submit">Subscribe Now</button>
+                    <input type="text" placeholder="Email Address" class="input_mail">
+                    <button type="submit" class="submit">Subscribe Now</button>
                 </section>
             </form>
         </div>
     </footer>
 </body>
+
 </html>
