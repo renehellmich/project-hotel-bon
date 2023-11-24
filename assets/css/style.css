@@ -90,12 +90,17 @@ footer {
 
 .nav__header {
     display: flex;
+    align-items: center;
     gap: 30px;
     flex-wrap: wrap;
 }
 
 .nav__header a {
     color: var(--color-text);
+}
+.nav__header img {
+    height: 16px;
+    width: 16px;
 }
 
 /* * start main */
@@ -110,15 +115,6 @@ footer {
     justify-content: center;
     position: relative;
 }
-
-/* .div__welcome {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
 
 .div__welcome {
     position: absolute;
