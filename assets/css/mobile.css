@@ -1,0 +1,53 @@
+@media only screen and (max-width: 496px) {
+    h1 {
+        font-family: 'Regular';
+        font-size: 3.75rem;
+    }
+    
+    .nav__header {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .sc__welcome {
+        background: url('../img/hero_image.png') center/cover no-repeat;
+        width: 100vw;
+        /* min-height: 580px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:unset;
+    }
+    .div__welcome {
+        position:unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .div__room {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100% - 2 * 10vw);
+        max-width: 630px;
+        aspect-ratio: 1.26;
+        position: unset;
+    }
+
+    .pos__div_rooms {
+        position: unset;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}

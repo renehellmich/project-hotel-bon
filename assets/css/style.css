@@ -149,6 +149,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 16px;
 }
 .sc__facilities h2 {
     padding: 32px 0;
@@ -158,6 +159,10 @@ footer {
     gap: 64px;
     list-style: none;
     padding-bottom: 128px;
+}
+
+.li__facilities {
+    text-align: center;
 }
 
 .sc__rooms-rates {
@@ -194,6 +199,13 @@ footer {
     max-width: 630px;
     aspect-ratio: 1.26;
     position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.div__room:hover {
+    box-shadow: 0 0 64px rgba(0, 0, 0, 0.5); /* Hier kannst du die Stärke und Farbe des Schattens anpassen */
 }
 
 .div__room button {
@@ -227,6 +239,9 @@ footer {
     align-items: center;
     gap: 10px;
 }
+.div__rooms:hover {
+    background-blend-mode: lighten;
+}
 
 .div__book {
     display: flex;
@@ -241,6 +256,7 @@ footer {
     padding: 16px 0;
 }
 
+/* * footer */
 .footer {
     display: flex;
     flex-direction: row;
@@ -251,12 +267,11 @@ footer {
     flex-wrap: wrap;
 }
 
-/* * footer */
 
 .div__infos {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
 }
 .div__infos p {
     color: white;

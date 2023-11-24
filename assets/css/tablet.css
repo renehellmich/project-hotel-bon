@@ -1,0 +1,30 @@
+@media only screen and (max-width: 786px) {
+    h1 {
+        font-family: 'Regular';
+        font-size: 4.5rem;
+    }
+
+    h3 {
+        font-family: 'Medium';
+        font-size: 2rem;
+        color: var(--color-text);
+    }
+    
+    .ul__facilities {
+        display: flex;
+        justify-content: center;
+        gap: 64px;
+        list-style: none;
+        padding: 0 16px 128px 16px;
+        flex-wrap: wrap;
+    }
+
+    .div__room {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(100% - 2 * 10vw);
+        /* max-width: 630px; */
+        aspect-ratio: 1.26;
+    }
+}
