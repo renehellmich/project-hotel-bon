@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: 'Regular';
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('../fonts/Ubuntu-Medium.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-button: #dfaa5b;
+    --color-text: #957554;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* * font-familys and font-sizes */
+
+h1 {
+    font-family: 'Regular';
+    font-size: 5rem;
+}
+h2 {
+    font-family: 'Medium';
+    font-size: 2.875rem;
+    color: var(--color-text);
+}
+h3 {
+    font-family: 'Medium';
+    font-size: 2.5rem;
+    color: var(--color-text);
+}
+
+p {
+    font-family: 'Regular';
+    font-size: 1.5rem;
+    color:var(--color-text);
+}
+.ul__footer {
+    font-family: 'Regular';
+    font-size: 1.5rem;
+    color:white;
+}
+.label__subscribe {
+    font-family: 'Medium';
+    font-size: 1.875rem;
+    color:white;
+}
+
+/* * Background Colors */
+
+button {
+    background-color: var(--color-button);
+}
+footer {
+    background-color: black;
+}
+
+/* * start Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.header img {
+    width: 151px;
+}
+
+.nav__header {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.nav__header a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+/* * start main */
