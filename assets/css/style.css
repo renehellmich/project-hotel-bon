@@ -95,3 +95,54 @@ footer {
 }
 
 /* * start main */
+
+.sc__welcome {
+    background: url('../img/hero_image.png') center/cover no-repeat;
+    width: 100vw;
+    height: auto;
+    min-height: 790px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+}
+
+/* .div__welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.div__welcome {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.div__welcome h1 {
+    color: white
+}
+.div__welcome p {
+    color: white;
+}
+
+.div__welcome button {
+    padding: 12px 64px;
+    border: none;
+    border-radius: 10px;
+}
+
+.div__welcome button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* * Section Facilities */
+
